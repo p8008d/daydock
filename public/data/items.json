@@ -1,0 +1,148 @@
+{
+  "activeDashboard": "ai",
+  "dashboards": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "wallpaper": { "type": "image", "value": "/images/ai_bg.webp" },
+      "categories": [
+        {
+          "id": "chat",
+          "name": "Chat",
+          "items": [
+            { "id": "chatgpt", "name": "ChatGPT", "url": "https://chat.openai.com", "description": "Conversational AI" },
+            { "id": "claude", "name": "Claude", "url": "https://claude.ai", "description": "AI assistant" },
+            { "id": "perplexity", "name": "Perplexity", "url": "https://perplexity.ai", "description": "AI search engine" },
+            { "id": "gemini", "name": "Gemini", "url": "https://gemini.google.com", "description": "Google AI" }
+          ]
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "items": [
+            { "id": "midjourney", "name": "Midjourney", "url": "https://midjourney.com", "description": "AI image generation" },
+            { "id": "dalle", "name": "DALL-E", "url": "https://openai.com/dall-e-3", "description": "OpenAI images" },
+            { "id": "leonardo", "name": "Leonardo", "url": "https://leonardo.ai", "description": "AI art generator" }
+          ]
+        },
+        {
+          "id": "voice",
+          "name": "Voice",
+          "items": [
+            { "id": "elevenlabs", "name": "ElevenLabs", "url": "https://elevenlabs.io", "description": "Voice synthesis" },
+            { "id": "murf", "name": "Murf", "url": "https://murf.ai", "description": "AI voiceover" }
+          ]
+        },
+        {
+          "id": "writing",
+          "name": "Writing",
+          "items": [
+            { "id": "jasper", "name": "Jasper", "url": "https://jasper.ai", "description": "AI writing assistant" },
+            { "id": "copy", "name": "Copy.ai", "url": "https://copy.ai", "description": "AI copywriting" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trading",
+      "name": "Trading",
+      "wallpaper": { "type": "image", "value": "/images/trad_bg.webp" },
+      "categories": [
+        {
+          "id": "exchanges",
+          "name": "Exchanges",
+          "items": [
+            { "id": "binance", "name": "Binance", "url": "https://binance.com", "description": "Crypto exchange" },
+            { "id": "bybit", "name": "Bybit", "url": "https://bybit.com", "description": "Derivatives trading" },
+            { "id": "coinbase", "name": "Coinbase", "url": "https://coinbase.com", "description": "Crypto exchange" },
+            { "id": "kraken", "name": "Kraken", "url": "https://kraken.com", "description": "Crypto exchange" }
+          ]
+        },
+        {
+          "id": "analytics",
+          "name": "Analytics",
+          "items": [
+            { "id": "tradingview", "name": "TradingView", "url": "https://tradingview.com", "description": "Charts & analysis" },
+            { "id": "coingecko", "name": "CoinGecko", "url": "https://coingecko.com", "description": "Price tracking" },
+            { "id": "defillama", "name": "DeFiLlama", "url": "https://defillama.com", "description": "DeFi analytics" },
+            { "id": "dune", "name": "Dune", "url": "https://dune.com", "description": "On-chain analytics" }
+          ]
+        },
+        {
+          "id": "defi",
+          "name": "DeFi",
+          "items": [
+            { "id": "uniswap", "name": "Uniswap", "url": "https://app.uniswap.org", "description": "DEX" },
+            { "id": "aave", "name": "Aave", "url": "https://aave.com", "description": "Lending protocol" },
+            { "id": "1inch", "name": "1inch", "url": "https://1inch.io", "description": "DEX aggregator" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "name": "Security",
+      "wallpaper": { "type": "image", "value": "/images/sec_bg.webp" },
+      "categories": [
+        {
+          "id": "vpn",
+          "name": "VPN",
+          "items": [
+            { "id": "nordvpn", "name": "NordVPN", "url": "https://nordvpn.com", "description": "VPN service" },
+            { "id": "expressvpn", "name": "ExpressVPN", "url": "https://expressvpn.com", "description": "VPN service" },
+            { "id": "protonvpn", "name": "ProtonVPN", "url": "https://protonvpn.com", "description": "Privacy VPN" }
+          ]
+        },
+        {
+          "id": "passwords",
+          "name": "Passwords",
+          "items": [
+            { "id": "1password", "name": "1Password", "url": "https://1password.com", "description": "Password manager" },
+            { "id": "bitwarden", "name": "Bitwarden", "url": "https://bitwarden.com", "description": "Password manager" }
+          ]
+        },
+        {
+          "id": "wallets",
+          "name": "Wallets",
+          "items": [
+            { "id": "ledger", "name": "Ledger", "url": "https://ledger.com", "description": "Hardware wallet" },
+            { "id": "trezor", "name": "Trezor", "url": "https://trezor.io", "description": "Hardware wallet" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "productivity",
+      "name": "Productivity",
+      "wallpaper": { "type": "image", "value": "/images/prod_bg.webp" },
+      "categories": [
+        {
+          "id": "workspace",
+          "name": "Workspace",
+          "items": [
+            { "id": "notion", "name": "Notion", "url": "https://notion.so", "description": "Notes & workspace" },
+            { "id": "obsidian", "name": "Obsidian", "url": "https://obsidian.md", "description": "Knowledge base" }
+          ]
+        },
+        {
+          "id": "design",
+          "name": "Design",
+          "items": [
+            { "id": "canva", "name": "Canva", "url": "https://canva.com", "description": "Design tool" },
+            { "id": "photopea", "name": "Photopea", "url": "https://photopea.com", "description": "Photo editor" },
+            { "id": "figma", "name": "Figma", "url": "https://figma.com", "description": "UI design" }
+          ]
+        },
+        {
+          "id": "utilities",
+          "name": "Utilities",
+          "items": [
+            { "id": "tinypng", "name": "TinyPNG", "url": "https://tinypng.com", "description": "Image compression" },
+            { "id": "removebg", "name": "remove.bg", "url": "https://remove.bg", "description": "Background removal" },
+            { "id": "coolors", "name": "Coolors", "url": "https://coolors.co", "description": "Color palettes" }
+          ]
+        }
+      ]
+    }
+  ]
+}
